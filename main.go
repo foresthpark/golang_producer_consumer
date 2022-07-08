@@ -153,5 +153,6 @@ func main() {
 
 	 // print out the ending message
 	 color.Cyan("All order DONE")
+	 color.Yellow("We made %d pizzas, but failed to make %d pizzas, with a total of %d attempts", pizzasMade, pizzasFailed, totalPizzas)
 	 color.Cyan("----------------------------------")
 }
